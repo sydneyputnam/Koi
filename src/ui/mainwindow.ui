@@ -677,6 +677,59 @@
               </item>
              </layout>
             </item>
+            <item row="7" column="0" colspan="2">
+              <layout class="QVBoxLayout" name="cursorTheme">
+               <item alignment="Qt::AlignmentFlag::AlignHCenter">
+                <widget class="QCheckBox" name="cursorCheckBox">
+                 <property name="text">
+                  <string>Cursor</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <item alignment="Qt::AlignmentFlag::AlignHCenter">
+                  <widget class="QLabel" name="lightCursorTheme">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
+                   <property name="text">
+                    <string>LIGHT:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignmentFlag::AlignHCenter">
+                  <widget class="QLabel" name="darkCursorTheme">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
+                   <property name="text">
+                    <string>DARK:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_17">
+                 <item>
+                  <widget class="QComboBox" name="lightDropCursorTheme">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="darkDropCursorTheme">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
            </layout>
           </widget>
          </widget>
